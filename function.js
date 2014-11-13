@@ -51,7 +51,7 @@ alert("El area del circulo es:   "+area);
 }
 */
 
-
+/*
 function areaCirculoTres(){
     var pi = 3.1416
     var diametro = Number(prompt("Ingresa diametro de Circulo 3: "));
@@ -66,10 +66,41 @@ function areaCirculoTres(){
 var areaDeCirculo = areaCirculoTres;
 
 alert ("El area es igual a :  "+areaDeCirculo);
+*/
 
 
+/* EJEMPLO DE IF , ELSE IF, ELSE
+var pregunta = escenarios ();
+
+alert (pregunta);
+
+function escenarios(){
+    var pregunta = prompt("Dime si eres valiente, inteligente o guapo?");
+  
     
+    
+if (pregunta=="inteligente"){
+    var respuesta1 = ("Eres el siguiente Steve Jobs");
+    return respuesta1
+}
 
+else if (pregunta=="guapo"){
+    var respuesta2 = ("Eres el siguiente David Beckham");
+    return respuesta2
+}
+
+else if (pregunta=="valiente"){
+    var respuesta3 = ("Unete al ejercito de 300 espartanos");
+    return respuesta3
+}
+
+else {
+    var respuesta4 = ("Eres un average Joe");
+    return respuesta4
+}
+    
+}
+*/
 
 
 
