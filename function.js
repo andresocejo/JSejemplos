@@ -102,7 +102,23 @@ else {
 }
 */
 
+/* RETIRO DE CAJERO
+var monto = Number(prompt("Monto que desea retirar?"));
+var dinero = retiro(monto);
+alert (dinero);
 
+function retiro(argumentoMonto){
+    
+                       
+if (argumentoMonto > 100 && argumentoMonto < 3000){
+    var respuesta= ("Toma tu dinero");
+    return respuesta;
+}
 
-
-
+else {
+    var respuesta2 = ("No puedes retirar ese monto");
+    return respuesta2;
+}
+    
+}
+*/
